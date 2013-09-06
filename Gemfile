@@ -5,17 +5,16 @@ gem 'rails', '3.2.13'
 
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'haml-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-  gem 'haml-rails'
   gem 'sqlite3'
 end
 
 group :production do
-  gem 'haml-rails'
   gem 'pg'
 end
 
