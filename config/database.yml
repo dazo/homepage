@@ -20,6 +20,7 @@ test:
 
 production:
   adapter: postgresql
+  encoding: utf-8
   host: localhost
-  username: user
+  username: postgres
   database: production
