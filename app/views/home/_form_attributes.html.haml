@@ -1,0 +1,26 @@
+%div
+  = label_tag 'name'
+  %br
+  = text_field_tag 'name'
+  %br
+  = label_tag 'email'
+  %br
+  = text_field_tag 'email'
+%div
+  = label_tag 'number_of_guests', 'Anzahl Gäste'
+  %br
+  = select_tag 'number_of_guests', '<option>1</option><option>2</option><option>3</option><option>4</option>'.html_safe
+%div
+  = label_tag 'checkin'
+  %br
+  = text_field_tag 'checkin'
+  %br
+  = label_tag 'checkout'
+  %br
+  = text_field_tag 'checkout'
+  
+
+= label_tag 'booking_message', 'Spezielle Anliegen'
+= text_area :booking, :message, cols: 22, rows: 5
+%div#submit
+  = submit_tag 'Buchungsanfrage'

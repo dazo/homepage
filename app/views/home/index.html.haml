@@ -1,0 +1,40 @@
+%hgroup
+  #login
+    =link_to('login', login_index_url)
+  %h1 Hier kommt noch ein Logo hin
+  %h3 Im schönen Hamburg Marienthal befindet sich das Haus. Es besteht aus...
+  
+  %nav.clear
+    %ul
+      %li
+        %a{:href => '#article1'} Beschreibung
+      %li
+        %a{:href => '#article2'} Bilder
+      %li
+        %a{:href => '#article3'} Buchen
+        
+        
+        
+%section#articles
+  %div.line
+      
+  %article#article1
+    %h2 Beschreibung
+    %div.line
+    %div.articleBody.clear
+      %figure
+        = image_tag('gallery/4.jpg')
+      %p In this tutorial, we are creating a photo shoot effect with our just-released PhotoShoot jQuery plug-in. With it you can convert a regular div on the page into a photo shooting stage simulating a camera-like feel.
+      %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. Duis felis dui, vulputate nec adipiscing nec, interdum vel tortor. Sed gravida, erat nec rutrum tincidunt, metus mauris imperdiet nunc, et elementum tortor nunc at eros. Donec malesuada congue molestie. Suspendisse potenti. Vestibulum cursus congue sem et feugiat. Morbi quis elit odio.
+
+  %article#article2
+    %h2 Bilder vom schönen Marienthal in Hamburg
+    %div.line
+    %div.articleBody.clear
+      = render "gallery/menu"
+
+  %article#article3
+    %h2 Buchen
+    %div.line
+    %div.articleBody.clear
+      = render 'form'

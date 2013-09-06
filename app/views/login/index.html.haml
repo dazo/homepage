@@ -1,0 +1,8 @@
+%section#articles
+  %div.line
+  %article#article
+    %h2 Buchen
+    %div.line
+    %div.articleBody.clear
+    = form_tag book_it_url, method: :post do
+      = render 'home/form_attributes'

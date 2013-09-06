@@ -1,0 +1,27 @@
+!!!
+%html
+  %head
+    %title Dariusch Zohurian
+    = csrf_meta_tags
+    
+    = stylesheet_link_tag "style"
+    = stylesheet_link_tag "home"
+    = stylesheet_link_tag "gallery/style"
+    = stylesheet_link_tag "vendor/normalize.min.css"
+    
+    = javascript_include_tag "vendor/jquery-1.9.0.min.js"
+    = javascript_include_tag "vendor/jquery.scrollTo-1.4.3-min.js"
+    = javascript_include_tag "vendor/modernizr.custom.53451.js"
+    = javascript_include_tag "vendor/jquery.gallery.js"
+
+    = javascript_include_tag "application.js"
+
+  %body
+    %section#page
+      %header
+        = yield
+
+      %footer
+        %div.line
+        %pCopyright 2010 - zohurian.de
+        %a.up{:href => '#page'} Sweet Tabshref

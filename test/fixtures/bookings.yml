@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  email: MyString
+  number_of_guests: 1
+  checkin: 2013-08-30
+  checkout: 2013-08-30
+  booking_message: MyText
+
+two:
+  name: MyString
+  email: MyString
+  number_of_guests: 1
+  checkin: 2013-08-30
+  checkout: 2013-08-30
+  booking_message: MyText

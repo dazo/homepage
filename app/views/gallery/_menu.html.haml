@@ -1,0 +1,27 @@
+%section#dg-container.dg-container
+	.dg-wrapper
+		%a{:href => "#"}
+			= image_tag "gallery/1.jpg"
+		%a{:href => "#"}
+			= image_tag "gallery/2.jpg"
+		%a{:href => "#"}
+			= image_tag "gallery/3.jpg"
+		%a{:href => "#"}
+			= image_tag "gallery/4.jpg"
+		%a{:href => "#"}
+			= image_tag "gallery/5.jpg"
+		%a{:href => "#"}
+			= image_tag "gallery/6.jpg"
+		%a{:href => "#"}
+			= image_tag "gallery/7.jpg"
+		%a{:href => "#"}
+			= image_tag "gallery/8.jpg"
+
+	%nav#gallery
+		%span.dg-prev <
+		%span.dg-next >
+		
+	:javascript
+			$(function() {
+				$('#dg-container').gallery();
+			});
