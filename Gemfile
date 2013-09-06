@@ -11,6 +11,7 @@ group :development, :test do
 end
 
 group :production do
+  gem 'haml-rails'
   gem 'pg'
 end
 
