@@ -20,7 +20,7 @@ class LoginController < ApplicationController
       booking.save
       redirect_to root_url
     else
-      raise 'Fehlgeschlagen'
+      raise booking.errors
     end
   end
   
