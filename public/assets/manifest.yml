@@ -19,6 +19,8 @@ gallery/arrows.png: gallery/arrows-2509e542db8dba7451f185a3d3deafdc.png
 gallery/arrows/index.png: gallery/arrows-2509e542db8dba7451f185a3d3deafdc.png
 gallery/bg.jpg: gallery/bg-8e2457efd4ae459970ce3b274f80b1a3.jpg
 gallery/bg/index.jpg: gallery/bg-8e2457efd4ae459970ce3b274f80b1a3.jpg
+gradient_light.jpg: gradient_light-639ff6b156c95b4cced8b1fc068418d0.jpg
+gradient_light/index.jpg: gradient_light-639ff6b156c95b4cced8b1fc068418d0.jpg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application.js: application-1176fc74bdc8b4420efd15506f9c4875.js
